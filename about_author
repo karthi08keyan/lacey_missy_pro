@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+html {
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 55%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
+  
+}
+
+.container {
+width: 100%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+  
+}
+
+.title {
+  color: grey;
+  font-weight: bold;
+  
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 90%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+  #image{
+      width: 77%;
+      margin-left: 40px;
+  
+        border-radius: 50%;
+  }
+  
+  
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="card " >
+      <img  src="http://www.laceymissy.com/wp-content/uploads/2021/10/lacey-propertier-e1642045587760.jpg" alt="Jane"   id="image">
+      <div class="container">
+        <h3 style="color:black;">Mythili Kathiresh</h3>
+        <p class="title">CEO & Founder</p>
+        <p class="title">admin@laceymissy.com</p>
+        <p><button onclick="window.location.href='https://wa.me/+9188072 27021'" class="button">Contact</button></p>
+      
+      </div>
+     
+    </div>
+  </div>
+
+  
+  
+  
+</div>
+
+</body>
+</html>
